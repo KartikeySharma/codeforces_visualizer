@@ -1,8 +1,6 @@
 # Codeforces-Visualizer
 A visualizer app for codeforces that runs on Android. It's created using Kotlin and is based on the MVVM architecture.
 
-This app is made using codeforces api.
-
 In this app you can :<br>
  - View upcoming contest list<br>
  - View previous contest list<br>
