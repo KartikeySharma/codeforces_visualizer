@@ -113,38 +113,6 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
     private fun showBottomSheet() {
         val bottomSheetView = layoutInflater.inflate(R.layout.side_nav_header, coordinator, false)
 
-        bottomSheetView.tvRate.setOnClickListener {
-            try {
-                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$packageName")))
-            } catch (exception: Exception) {
-                exception.printStackTrace()
-                Toast.makeText(this@MainActivity, getString(R.string.no_suitable_app_found), Toast.LENGTH_SHORT)
-                        .show()
-            }
-        }
-        bottomSheetView.tvShare.setOnClickListener {
-            try {
-                val i = Intent(Intent.ACTION_SEND)
-                i.type = "text/plain"
-                i.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name))
-                var sAux = "\nLet me recommend you this application\n\n"
-                sAux += "https://play.google.com/store/apps/details?id=$packageName\n"
-                i.putExtra(Intent.EXTRA_TEXT, sAux)
-                startActivity(Intent.createChooser(i, getString(R.string.choose_one)))
-
-                logEvent("Share")
-            } catch (e: Exception) {
-                e.printStackTrace()
-                Toast.makeText(this@MainActivity, getString(R.string.no_suitable_app_found), Toast.LENGTH_SHORT)
-                        .show()
-            }
-        }
-
-        bottomSheetView.tvAbout.setOnClickListener {
-            val aboutDialogView = layoutInflater.inflate(R.layout.activity_about, null, false)
-            initDialogView(aboutDialogView)
-        }
-
         val dialog = BottomSheetDialog(this)
         dialog.setContentView(bottomSheetView)
         dialog.show()
@@ -158,43 +126,6 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
             goToHome()
         }
         logEvent("Show More")
-    }
-
-    private fun initDialogView(dialogView: View) {
-        try {
-            val versionName = packageManager.getPackageInfo(packageName, 0).versionName
-            dialogView.tv_app_version.text = "${getString(R.string.app_name)}\nv$versionName"
-        } catch (e: PackageManager.NameNotFoundException) {
-            e.printStackTrace()
-        }
-
-        dialogView.facebook.setOnClickListener {
-            try {
-                val facebook = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/islamdidarmd"))
-                startActivity(facebook)
-            } catch (e: Exception) {
-                e.printStackTrace()
-                Toast.makeText(this@MainActivity, getString(R.string.no_suitable_app_found), Toast.LENGTH_SHORT)
-                        .show()
-            }
-        }
-
-        dialogView.twitter.setOnClickListener {
-            try {
-                val twitter = Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/islamdidarmd"))
-                startActivity(twitter)
-            } catch (e: Exception) {
-                e.printStackTrace()
-                Toast.makeText(this@MainActivity, getString(R.string.no_suitable_app_found), Toast.LENGTH_SHORT)
-                        .show()
-            }
-        }
-        AlertDialog.Builder(this)
-                .setView(dialogView)
-                .setPositiveButton(R.string.ok) { dialogInterface, i -> dialogInterface.dismiss() }
-                .show()
-                .window?.setBackgroundDrawableResource(R.drawable.bg_rounded_white)
-        logEvent("About")
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {

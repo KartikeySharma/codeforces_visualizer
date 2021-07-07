@@ -1,5 +1,6 @@
 package com.codeforcesvisualizer.view.activity
 
+import android.content.Intent
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import android.graphics.Color
@@ -509,9 +510,14 @@ class CompareActivity : BaseActivity() {
                     search(etInput1.text.toString().trim(),
                             etInput2.text.toString().trim())
                     dialog.dismiss()
-                }.setNegativeButton(R.string.cancel, null)
-                .setCancelable(true)
-                .show()
+                }
+            alertDialog.setNegativeButton(R.string.cancel){
+                _,_ ->
+                val intent= Intent(this@CompareActivity, MainActivity::class.java)
+                startActivity(intent)
+            }
+            alertDialog.create()
+            alertDialog.show()
 
         etInput1.setOnEditorActionListener { textView, i, keyEvent ->
             if (i == EditorInfo.IME_ACTION_NEXT) {
@@ -533,7 +539,6 @@ class CompareActivity : BaseActivity() {
                     return@setOnEditorActionListener true
                 }
 
-                alertDialog.dismiss()
                 search(etInput1.text.toString().trim(),
                         etInput2.text.toString().trim())
                 return@setOnEditorActionListener true
