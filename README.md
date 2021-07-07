@@ -2,8 +2,10 @@
   <img width="800" height="150" src="https://codeforces.com/predownloaded/a5/a6/a5a665d4b88a3dc743903eb801ff8d406db80523.png">
 </p>
 
-# <center> Codeforces-Visualizer </center>
-This is a visualizer app for codeforces and it is created using Kotlin and is based on the MVVM architecture.
+<p align="center">
+# Codeforces-Visualizer
+Visualiser App to View Various Contests and Compare Users!
+ </p>
 
 This app can be used to fetch the User-Information, Rating-Changes, Problems-Solved and Contest-Details of any user on CodeForces (a Competitive Programming website).
 
