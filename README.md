@@ -23,13 +23,10 @@ You can use this app to : <br>
 5. MPChart Library
 
 ## Some screenshots of the app
-
-<p align="left">
-  <img width="300" height="600" src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/1.jpeg">
-</p>
-
-<p align="left">
-  <img width="300" height="600" src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/2.jpeg">
+<p float="left">
+  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/1.jpeg" width="250" />
+  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/2.jpeg" width="250" /> 
+  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/3.jpeg" width="250" />
 </p>
 
 ## How to contribute
