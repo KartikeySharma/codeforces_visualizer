@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="300" src="https://codeforces.com/predownloaded/a5/a6/a5a665d4b88a3dc743903eb801ff8d406db80523.png">
+  <img width="600" height="200" src="https://codeforces.com/predownloaded/a5/a6/a5a665d4b88a3dc743903eb801ff8d406db80523.png">
 </p>
 
 # Codeforces-Visualizer
