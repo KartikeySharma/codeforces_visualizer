@@ -1,5 +1,10 @@
 # Codeforces-Visualizer
-A visualizer app for codeforces that runs on Android. It's created using Kotlin and is based on the MVVM architecture.
+This is a visualizer app for codeforces and it is created using Kotlin and is based on the MVVM architecture.
+
+This app can be used to fetch the User-Information, Rating-Changes, Problems-Solved and Contest-Details of any user on CodeForces (a Competitive Programming website).
+
+-Uses Retrofit and OkHttp Library in Android to fetch JSON data from CodeForces using CodeForces API.
+-Uses MPChart Library to display the fetched information in the form of Graphs.
 
 In this app you can :<br>
  - View upcoming contest list<br>
