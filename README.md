@@ -23,9 +23,9 @@ You can use this app to : <br>
 5. MPChart Library
 
 ## Some screenshots of the app
-<p float="left">
-  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/1.jpeg" width="400" />
-  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/2.jpeg" width="400" /> 
+<p float="center">
+  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/1.jpeg" width="300" />
+  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/2.jpeg" width="300" /> 
 </p>
 
 ## How to contribute
