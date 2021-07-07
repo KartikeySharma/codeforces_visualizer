@@ -7,7 +7,7 @@ Visualiser App to View Various Contests and Compare Users!
 
 This app can be used to fetch the User-Information, Rating-Changes, Problems-Solved and Contest-Details of any user on CodeForces (a Competitive Programming website).
 
-In this app you can :<br>
+You can use this app to : <br>
  - View upcoming contest list<br>
  - View previous contest list<br>
  - Analyze single user profile<br>
