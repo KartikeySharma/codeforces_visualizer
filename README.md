@@ -2,10 +2,8 @@
   <img width="800" height="150" src="https://codeforces.com/predownloaded/a5/a6/a5a665d4b88a3dc743903eb801ff8d406db80523.png">
 </p>
 
-<p align="center">
 # Codeforces-Visualizer
 Visualiser App to View Various Contests and Compare Users!
- </p>
 
 This app can be used to fetch the User-Information, Rating-Changes, Problems-Solved and Contest-Details of any user on CodeForces (a Competitive Programming website).
 
