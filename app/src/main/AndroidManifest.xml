@@ -7,13 +7,19 @@
     <application
         android:name=".Application"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_codeforces_log_new"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_codeforces_log_new_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:theme="@style/AppTheme.NoActionBar">
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".LogoSplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".view.activity.SplashActivity"
             android:configChanges="screenSize|screenLayout|orientation"
@@ -23,24 +29,20 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity
             android:name=".view.activity.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="screenSize|screenLayout|orientation"
-            android:launchMode="singleTask"/>
-
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".view.activity.SearchActivity"
             android:configChanges="screenSize|screenLayout|orientation"
-            android:launchMode="singleTask"/>
-
+            android:launchMode="singleTask" />
         <activity
             android:name=".view.activity.CompareActivity"
             android:configChanges="screenSize|screenLayout|orientation"
-            android:launchMode="singleTask"/>
+            android:launchMode="singleTask" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
