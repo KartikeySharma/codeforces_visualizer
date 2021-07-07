@@ -24,9 +24,8 @@ You can use this app to : <br>
 
 ## Some screenshots of the app
 <p float="left">
-  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/1.jpeg" width="250" />
-  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/2.jpeg" width="250" /> 
-  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/3.jpeg" width="250" />
+  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/1.jpeg" width="400" />
+  <img src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/2.jpeg" width="400" /> 
 </p>
 
 ## How to contribute
