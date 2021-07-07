@@ -1,11 +1,11 @@
-package com.codeforcesvisualizer
+package com.codeforcesvisualizer.view.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.WindowManager
-import com.codeforcesvisualizer.view.activity.SplashActivity
+import com.codeforcesvisualizer.R
 
 class LogoSplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
