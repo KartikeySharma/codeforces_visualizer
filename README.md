@@ -22,6 +22,16 @@ You can use this app to : <br>
 4. Codeforces API
 5. MPChart Library
 
+## Some screenshots of the app
+
+<p align="left">
+  <img width="300" height="600" src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/1.jpeg">
+</p>
+
+<p align="left">
+  <img width="300" height="600" src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/2.jpeg">
+</p>
+
 ## How to contribute
 - Click the fork button to get the repo to your account.
 - Copy the git clone link from your account.
@@ -37,14 +47,3 @@ You can use this app to : <br>
 - Push the files to your fork.
 - Create a Pull Request and comment briefly of the improvements/changes you made.
 - I will check it out and merge it if it looks good.
-
-## Some screenshots of the app
-
-<p align="left">
-  <img width="300" height="600" src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/1.jpeg">
-</p>
-
-<p align="left">
-  <img width="300" height="600" src="https://github.com/KartikeySharma/codeforces_visualiser/blob/master/screenshots/2.jpeg">
-</p>
-
